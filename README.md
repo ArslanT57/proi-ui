@@ -22,13 +22,13 @@ Check out the [docs](https://specialdoom.github.io/proi-ui/).
 
 ## Migrate to version 2.0.0
 
-- you have to import `@specialdoom/proi-ui/dist/proi-ui.css` for styling
+- you have to import `@specialdoom/proi-ui/src/proi-ui.css` for styling
 
 ## Basic Usage
 
 ```javascript
 <script>
-import { Button, Input } from 'proi-ui'
+import { Button, Input } from 'proi-ui/src'
 
 function click () {
     console.log('clicked');
